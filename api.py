@@ -1,3 +1,15 @@
+##*
+## ConsumerWise.
+##
+## Diego Socas
+## Rodrich Antaya
+## Brais Varela
+##
+## Se renuncia a los derechos de autor de este archivo y se libera al dominio público
+## bajo la licencia CC0 1.0 Universal. Para más información, vea el archivo LICENSE
+## en la raíz del proyecto o https://creativecommons.org/publicdomain/zero/1.0/
+##
+
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import csv

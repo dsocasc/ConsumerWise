@@ -1,7 +1,17 @@
+/*
+ * ConsumerWise.
+ *
+ * Diego Socas
+ * Rodrich Antaya
+ * Brais Varela
+ *
+ * Se renuncia a los derechos de autor de este archivo y se libera al dominio público
+ * bajo la licencia CC0 1.0 Universal. Para más información, vea el archivo LICENSE
+ * en la raíz del proyecto o https://creativecommons.org/publicdomain/zero/1.0/
+ */
+
 import 'package:consumer_wise/main.dart';
 import 'package:flutter/material.dart';
-
-
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -18,10 +28,7 @@ class _LoginPageState extends State<LoginPage> {
         children: [
           Container(
             width: double.infinity,
-            height: MediaQuery
-                .of(context)
-                .size
-                .height *0.1,
+            height: MediaQuery.of(context).size.height * 0.1,
             decoration: BoxDecoration(
               color: Colors.blue,
               borderRadius: BorderRadius.only(
