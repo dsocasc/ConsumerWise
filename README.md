@@ -15,3 +15,9 @@ pip install uvicorn
 En un principio como no la subimos a ningun sitio, al hacer `uvicorn main:app --reload` solo podiamos visualizarla a través de `localhost` y la `IP de loopback` de la propia maquina  
 ### Segundo Paso: Creacion del diseño de la Aplicacion con Flutter 
 Utilizamos Flutter para implementar la interfaz grafica y comunicar la parte servidora hecha en Python con esta.
+
+<p float="left">
+  <img src="Imágenes/seleccion_dia.jpg" alt="Seleccion del dia a visualizar" width="300" height="450" style="margin-left: 20px;" />
+  <img src="Imágenes/grafica.jpg" alt="Grafica con los gastos en KW/h" width="300" height="450" style="margin-right: 20px;" />
+</p>
+
