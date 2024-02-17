@@ -4,6 +4,7 @@ ConsumerWise resumidamente es una aplicación intuitiva que te ayuda a tomar dec
 ## Preparacion del entorno para poder ejecutar la aplicacion
 ### Primer Paso: Creacion de una API en python
 Para implementar esta aplicacion hemos creado una **API** en python utilizando para ello **fastAPI**.  
+Esto funciona como servidor recibe peticiones por parte de un cliente, que la interfaz de la aplicacion.   
 Por esta razon fue necesaria la instalacion de esta y de uvicorn, libreria para comprobar el funcionamiento de la API.  
 ```console
 pip install fastapi
@@ -12,4 +13,5 @@ pip install fastapi
 pip install uvicorn
 ```
 En un principio como no la subimos a ningun sitio, al hacer `uvicorn main:app --reload` solo podiamos visualizarla a través de `localhost` y la `IP de loopback` de la propia maquina  
-
+### Segundo Paso: Creacion del diseño de la Aplicacion con Flutter 
+Utilizamos Flutter para implementar la interfaz grafica y comunicar la parte servidora hecha en Python con esta.
